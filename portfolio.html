@@ -65,32 +65,46 @@
     </header>
 
     <main>
-      <section class="section-partfolio section">
-        <div class="container">
+      <section class="section-portfolio section">
+        <div class="portfolio-container container">
           <h1 class="visually-hidden">Наши работы</h1>
 
           <!-- Filter -->
           <ul class="filter-list list">
             <li class="filter-item">
-              <button class="filter-btn is-active" type="button">Все</button>
+              <button
+                class="filter-btn is-active"
+                type="button"
+                data-filter="all"
+              >
+                Все
+              </button>
             </li>
             <li class="filter-item">
-              <button class="filter-btn" type="button">Веб-сайты</button>
+              <button class="filter-btn" type="button" data-filter="website">
+                Веб-сайты
+              </button>
             </li>
             <li class="filter-item">
-              <button class="filter-btn" type="button">Приложения</button>
+              <button class="filter-btn" type="button" data-filter="apps">
+                Приложения
+              </button>
             </li>
             <li class="filter-item">
-              <button class="filter-btn" type="button">Дизайн</button>
+              <button class="filter-btn" type="button" data-filter="design">
+                Дизайн
+              </button>
             </li>
             <li class="filter-item">
-              <button class="filter-btn" type="button">Маркетинг</button>
+              <button class="filter-btn" type="button" data-filter="marketing">
+                Маркетинг
+              </button>
             </li>
           </ul>
 
           <!-- Gallery -->
           <ul class="card-set-list list">
-            <li class="card-set-item">
+            <li class="card-set-item website">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -107,7 +121,7 @@
               </a>
             </li>
 
-            <li class="card-set-item">
+            <li class="card-set-item design">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -126,7 +140,7 @@
               </a>
             </li>
 
-            <li class="card-set-item">
+            <li class="card-set-item apps">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -145,7 +159,7 @@
               </a>
             </li>
 
-            <li class="card-set-item">
+            <li class="card-set-item marketing">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -164,7 +178,7 @@
               </a>
             </li>
 
-            <li class="card-set-item">
+            <li class="card-set-item apps">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -183,7 +197,7 @@
               </a>
             </li>
 
-            <li class="card-set-item">
+            <li class="card-set-item website">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -202,7 +216,7 @@
               </a>
             </li>
 
-            <li class="card-set-item">
+            <li class="card-set-item design">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -221,7 +235,7 @@
               </a>
             </li>
 
-            <li class="card-set-item">
+            <li class="card-set-item marketing">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -240,7 +254,7 @@
               </a>
             </li>
 
-            <li class="card-set-item">
+            <li class="card-set-item apps">
               <a class="card-set-link link" href="">
                 <div class="card-set-thumb">
                   <img
@@ -295,5 +309,7 @@
         </address>
       </div>
     </footer>
+
+    <script src="./js/filter.js"></script>
   </body>
 </html>
