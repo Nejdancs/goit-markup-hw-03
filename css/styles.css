@@ -77,7 +77,7 @@ img {
 }
 
 .logo {
-  display: block;
+  display: inline-block;
 
   color: #000000;
   font-family: 'Raleway', sans-serif;
